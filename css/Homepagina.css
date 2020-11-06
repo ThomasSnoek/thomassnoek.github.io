@@ -1,0 +1,256 @@
+body
+{
+    font-family: arial;
+    color: white;
+    background-color: #161313;
+    background: #161313;
+}
+a:link
+{
+    color: aqua;
+}
+a:visited
+{
+    color: rgb(2, 168, 168);
+}
+a:hover
+{
+    color: rgb(0, 85, 85);
+}
+p.edge
+{
+    color: black;
+    background: rgb(1, 128, 1);
+    margin: 15px 15px 15px 15px;
+    padding: 15px 15px 15px 15px;
+    border: 1px solid;
+    border-radius: 7px;
+    text-align: center;
+}
+p.edge2
+{
+    color: white;
+    background: black;
+    margin: 15px 15px 15px 15px;
+    padding: 20px 15px 20px 15px;
+    border: 5px solid;
+    border-radius: 7px;
+    text-align: center;
+}
+p.edge3
+{
+    color: black;
+    background: rgb(1, 128, 1);
+    margin: 15px 200px 15px 200px;
+    padding: 15px 15px 15px 15px;
+    border: 5px solid;
+    border-radius: 20px;
+    text-align: center;
+    width: 1000px;
+}
+h1.edge
+{
+    font-size: 45px;
+    color: black;
+    background: aqua;
+    margin: 15px 15px 15px 15px;
+    padding: 45px 15px 45px 15px;
+    border: 1px solid;
+    border-radius: 7px;
+    text-align: center;
+}
+h4.edge
+{
+    font-size: 30px;
+    color: black;
+    background:lime;
+    margin: 15px 15px 15px 15px;
+    padding: 30px 15px 30px 15px;
+    border: 1px solid;
+    border-radius: 7px;
+    text-align: center;
+}
+h5.edge
+{
+    font-size: 25px;
+    color: white;
+    background: black;
+    margin: 15px 15px 15px 15px;
+    padding: 20px 15px 20px 15px;
+    border: 5px solid;
+    border-radius: 7px;
+    text-align: center;
+}
+h6.edge
+{
+    font-size: 20px;
+    color: black;
+    background:rgb(1, 128, 1);
+    margin: 15px 15px 15px 15px;
+    padding: 15px 15px 15px 15px;
+    border: 1px solid;
+    border-radius: 7px;
+    text-align: center;
+}
+h6.edge2
+{
+    font-size: 20px;
+    color: black;
+    background: lime;
+    margin: 15px 15px 15px 15px;
+    padding: 15px 200px 15px 200px;
+    border: 1px solid;
+    border-radius: 7px;
+    text-align: center;
+}
+table.edge
+{
+    font-size: 15px;
+    color: white;
+    background: black;
+    margin: 15px 15px 15px 15px;
+    padding: 20px 417px 20px 417px;
+    border: 5px solid;
+    border-radius: 7px;
+    text-align: center;
+}
+li.edge
+{
+    color: black;
+    background: rgb(1, 128, 1);
+    margin: 15px 15px 15px 15px;
+    padding: 15px 15px 15px 15px;
+    border: 1px solid;
+    border-radius: 7px;
+    text-align: center;
+}
+li.edge2
+{
+    color: black;
+    background: lime;
+    margin: 15px 525px 15px 525px;
+    padding: 15px 15px 15px 15px;
+    border: 1px solid;
+    border-radius: 7px;
+    text-align: center;
+}
+ul.edge
+{
+    color: black;
+    background: rgb(1, 128, 1);
+    margin: 15px 15px 15px 15px;
+    padding: 15px 15px 15px 15px;
+    border: 1px solid;
+    border-radius: 7px;
+    text-align: center;
+}
+ol.edge
+{
+    color: white;
+    background: #161313;
+    margin: 15px 15px 15px 15px;
+    padding: 15px 15px 15px 15px;
+    border: 5px solid;
+    border-radius: 7px;
+    text-align: center;
+}
+img.edge
+{
+    background:lime;
+    margin: 15px 15px 15px 15px;
+    padding: 15px 15px 15px 15px;
+    border: 5px black solid;
+    border-radius: 70px;
+    align-items: center;
+}
+audio.edge
+{
+    background: lime;
+    margin: 15px 15px 15px 15px;
+    padding: 15px 15px 15px 15px;
+    border: 5px black solid;
+    border-radius: 70px;
+    align-items: center;
+}
+#menu
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+}
+#menu a
+{
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: rgb(1, 140, 1);
+  font-family: Arial;
+  text-align: center;
+}
+#menu
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#menu a
+{
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: rgb(1, 140, 1);
+  font-family: Arial;
+  width: 317px;
+  padding: 15px 30px;
+  margin-bottom: 0px;
+  display: block;
+}
+#menu a:hover
+{
+  background-color: rgb(0, 65, 0);
+}
+nav
+{
+     margin: 0;
+     padding: 0;
+}
+nav a
+{
+     color: #FFFFFF;
+     text-decoration: none;
+     background-color: #003366;
+     font-family: Arial, sans-serif;
+     width: 100px;
+     padding: 2px 4px;
+     margin-bottom: 1px;
+     display: block;
+     list-style-type: none;
+}
+nav a:hover
+{
+     background-color: #336699;
+     color:#FFFFFF;
+}	
+nav ul
+{
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+}
+nav li
+{
+     float: left;
+     background-color:#003366;
+     min-width:100px;
+}
+nav ul li ul
+{
+     display: none;
+}
+nav ul li ul li
+{
+     float: none;
+}
+nav ul li:hover ul
+{
+     display: block;
+}
