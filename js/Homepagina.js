@@ -1,4 +1,14 @@
-var name=""
+var c = document.getElementById("canvas");
+{
+    ctx.moveTo(0,0);
+    ctx.lineTo(300,150);
+    ctx.stroke();
+}
+var name = ""
+document.getElementById("name").innerHTML
+{
+    var name = txt;
+}
 function showname()
 {
     if(document.form1.name.value == "")
@@ -7,8 +17,8 @@ function showname()
     }
     else        
     {
-        alert("U heeft de naam ",document.form1.name.value," ingevult.");
         var name= document.form1.name.value;
+        alert("U heeft de naam",<p id="name"></p>ingevult.");
     }
 }
 function geeninteresse()
