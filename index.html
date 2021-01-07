@@ -5,35 +5,26 @@
            <link rel="stylesheet" href="css/Homepagina.css">
            <script src="js/Homepagina.js"></script>
      </head>
-     <body>
+     <body id="bg1">
         <nav>
             <ul id="menu">
                 <li><a href=index.html>Homepagina</a></li>
-                <li><a href=Top_5.10_lijsten.html>Top 5/10 lijsten</a></li>
-                <li><a href=Verhalen_Nieuws.html>Verhalen/Nieuws</a></li>
+                <li><a href=Favoriete_video_games.html>Favoriete video games</a></li>
+                <li><a href=Favoriete_video_game_ost.html>Favoriete video game soundtracks</a></li>
                 <li><a href=Informatie_over_mij.html>Informatie over mij</a></li>
             </ul>
         </nav>
         <img class= "edge" width="1440" height="130" src="img/thomassnoek.com Banner.jpg" alt="Banner van thomassnoek.com">
+        <header class= "edge"><strong>
+            Welkom<p id="name"></p>,dit is mijn website!
+        </header></strong>
         <section>
-            <article>
-                <h1 class= "edge">
-                    Welkom<var id="name"></var>, dit is mijn website!
-                </h1>
-                <h4 class="edge">
-                    Nieuwe onderdelen:
-                </h4>
-                <h6 class="edge">Top 5/10 lijsten: <a href=Favoriete_video_games.html>Favoriete video games</a></h6>
-                <h4 class="edge">
-                    Recent nieuws:
-                </h4>
-                <h6 class="edge">Gaming: <a href="https://www.youtube.com/watch?v=Rga6woeDzUw">Een nieuwe trailer voor Hyrule Warriors: Age of Calamity is net uit!</a></h6>
-                <h6 class="edge">Gaming: <a href="https://www.youtube.com/watch?v=miM69fbTzoI">Steve, Alex, Zombie en Enderman van Minecraft maken hun debut in Super Smash Bros. Ultmate!</a></h6>
-                <h6 class="edge">Gaming: <a href="https://www.youtube.com/watch?v=rmgN42ewTtE">De najaarsupdate van Animal Crossing New Horizons is live!</a></h6>
-                <h4 class="edge">
-                    Aanbevolen top 5/10 lijsten:
-                </h4>
-            </article>
+            <h4 class="edge">
+                Recent nieuws:
+            </h4>
+            <article><h6 class="edge">Gaming: <a href="https://www.youtube.com/watch?v=Rga6woeDzUw">Een nieuwe trailer voor Hyrule Warriors: Age of Calamity is net uit!</a></h6></article>
+            <article><h6 class="edge">Gaming: <a href="https://www.youtube.com/watch?v=miM69fbTzoI">Steve, Alex, Zombie en Enderman van Minecraft maken hun debut in Super Smash Bros. Ultmate!</a></h6></article>
+            <article><h6 class="edge">Gaming: <a href="https://www.youtube.com/watch?v=rmgN42ewTtE">De najaarsupdate van Animal Crossing New Horizons is live!</a></h6></article>
         </section>
         <form name="form1">
             <fieldset>
@@ -41,10 +32,14 @@
                   Vul je voornaam in:<br><br>
                   <input type = "text" size= "25" name = "name"><br>
                   <input type="button" value="Geen interesse" onClick="geeninteresse()">
-                  <input type = "button" value = "OK" onClick = "showname()" >
+                  <input type = "button" value = "OK" onClick = "showname()">
             </fieldset>
-      </form>
-        <h5 class="edge">Informatie over deze website</h5>
+        </form>
+        <canvas id="canvas" width="1443" height="300"></canvas>
+        <script>
+                var ctx = c.getContext("2d");
+        </script>
+        <footer class="edge">Informatie over deze website</footer>
         <p class="edge2">
             Deze website is een project voor het schoolvak informatica.<br>
             Gemaakt door: <a href=Informatie_over_mij.html>Thomas Snoek</a><br>
