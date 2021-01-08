@@ -16,28 +16,43 @@
         </nav>
         <img class= "edge" width="1440" height="130" src="img/thomassnoek.com Banner.jpg" alt="Banner van thomassnoek.com">
         <header class= "edge"><strong>
-            Welkom<p id="name"></p>,dit is mijn website!
+            Welkom<p id="viewname"></p>dit is mijn website!
         </header></strong>
+        <form name="form" class="edge">
+            <legend>Naam registreren</legend>
+            Vul uw naam in:<br><br>
+            <input type = "text" size= "25" name = "name"><br>
+            <input type="button" value="Geen interesse" onClick="geeninteresse()">
+            <input type = "button" value = "OK" onClick = "showname()">
+        </form>
         <section>
             <h4 class="edge">
                 Recent nieuws:
             </h4>
-            <article><h6 class="edge">Gaming: <a href="https://www.youtube.com/watch?v=Rga6woeDzUw">Een nieuwe trailer voor Hyrule Warriors: Age of Calamity is net uit!</a></h6></article>
-            <article><h6 class="edge">Gaming: <a href="https://www.youtube.com/watch?v=miM69fbTzoI">Steve, Alex, Zombie en Enderman van Minecraft maken hun debut in Super Smash Bros. Ultmate!</a></h6></article>
-            <article><h6 class="edge">Gaming: <a href="https://www.youtube.com/watch?v=rmgN42ewTtE">De najaarsupdate van Animal Crossing New Horizons is live!</a></h6></article>
+            <article><h6 class="edge">Gaming: <a href="https://www.youtube.com/watch?v=vsY0pdCW9N0">Een nieuwe Sakurai Presents over Sephiroth!</a></h6></article>
+            <article><h6 class="edge">Gaming: <a href="https://www.youtube.com/watch?v=hQaRBOI-9kg">Een nieuwe Nintendo Direct over Super Nintendo World!</a></h6></article>
+            <article><h6 class="edge">Gaming: <a href="https://www.youtube.com/watch?v=vlVeaz_l5Jg">Among us komt naar de Nintendo Switch!</a></h6></article>
         </section>
-        <form name="form1">
-            <fieldset>
-                  <legend>Een formulier met JavaScript</legend>
-                  Vul je voornaam in:<br><br>
-                  <input type = "text" size= "25" name = "name"><br>
-                  <input type="button" value="Geen interesse" onClick="geeninteresse()">
-                  <input type = "button" value = "OK" onClick = "showname()">
-            </fieldset>
-        </form>
-        <canvas id="canvas" width="1443" height="300"></canvas>
+        <canvas id="canvas" width="1442" height="100"></canvas>
         <script>
+            var start = 0;
+            var end = 103;
+            while (end < 1442)
+            {
+                var c = document.getElementById("canvas");
                 var ctx = c.getContext("2d");
+                ctx.moveTo(start,30);
+                ctx.lineTo(end,70);
+                ctx.stroke();
+                if (start < end)
+                {
+                    start = start + 206
+                }
+                else
+                {
+                    end = end + 206
+                }
+            }
         </script>
         <footer class="edge">Informatie over deze website</footer>
         <p class="edge2">
