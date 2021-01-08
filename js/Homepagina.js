@@ -1,28 +1,23 @@
-var c = document.getElementById("canvas");
-{
-    ctx.moveTo(0,0);
-    ctx.lineTo(300,150);
-    ctx.stroke();
-}
 var name = ""
-document.getElementById("name").innerHTML
-{
-    var name = txt;
-}
 function showname()
 {
-    if(document.form1.name.value == "")
+    if(document.form.name.value == "")
     {
         alert("U heeft geen naam ingevoerd. Vul alstublieft uw naam in of klik op geen interesse.");
     }
     else        
     {
-        var name= document.form1.name.value;
-        alert("U heeft de naam",<p id="name"></p>ingevult.");
+        var name = " " + document.form.name.value;
+        alert("U heeft de naam" + name + " ingevult. Vul hem nog een keer in om hem te wijzigen");
+        document.getElementById("viewname").innerHTML = name;
     }
 }
 function geeninteresse()
 {
-    alert("U heeft geen naam ingevoerd. Druk op N om uw naam te wijzigen")
-    var name=""
+    if (name = "")
+    alert("U heeft geen naam ingevoerd. Vul hem alsnog in om hem te wijzigen.")
+    else
+    var name = ""
+    alert("U heeft uw naam gereset, vul hem nog een keer in om hem te wijzigen.")
+    document.getElementById("viewname").innerHTML = name;
 }
