@@ -230,3 +230,153 @@ video.edge
     margin: 15px 15px 15px 15px;
     padding: 15px;
 }
+form.edge
+{
+    font-size: 30px;
+    color: black;
+    background:lime;
+    margin: 15px 15px 15px 15px;
+    padding: 30px 15px 30px 15px;
+    border: 1px solid;
+    border-radius: 7px;
+    text-align: center;
+}
+    text-align: center;
+}
+h6.edge
+{
+    font-size: 20px;
+    color: black;
+    background:rgb(1, 128, 1);
+    margin: 15px 15px 15px 15px;
+    padding: 15px 15px 15px 15px;
+    border: 1px solid;
+    border-radius: 7px;
+    text-align: center;
+}
+main.edge
+{
+    font-size: 20px;
+    color: black;
+    background: lime;
+    margin: 15px 15px 15px 15px;
+    padding: 15px 200px 15px 200px;
+    border: 1px solid;
+    border-radius: 7px;
+    text-align: center;
+}
+table.edge
+{
+    font-size: 15px;
+    color: white;
+    background: black;
+    margin: 15px 15px 15px 15px;
+    padding: 20px 417px 20px 417px;
+    border: 5px solid;
+    border-radius: 7px;
+    text-align: center;
+}
+li.edge
+{
+    color: black;
+    background: rgb(1, 128, 1);
+    margin: 15px 15px 15px 15px;
+    padding: 15px 15px 15px 15px;
+    border: 1px solid;
+    border-radius: 7px;
+    text-align: center;
+}
+li.edge2
+{
+    color: black;
+    background: lime;
+    margin: 15px 525px 15px 525px;
+    padding: 15px 15px 15px 15px;
+    border: 1px solid;
+    border-radius: 7px;
+    text-align: center;
+}
+ul.edge
+{
+    color: black;
+    background: rgb(1, 128, 1);
+    margin: 15px 15px 15px 15px;
+    padding: 15px 15px 15px 15px;
+    border: 1px solid;
+    border-radius: 7px;
+    text-align: center;
+    list-style-type: none;
+}
+ol.edge
+{
+    color: white;
+    background: #161313;
+    margin: 15px 15px 15px 15px;
+    padding: 15px 15px 15px 15px;
+    border: 5px solid;
+    border-radius: 7px;
+    text-align: center;
+}
+img.edge
+{
+    background:lime;
+    margin: 15px 15px 15px 15px;
+    padding: 15px 15px 15px 15px;
+    border: 5px black solid;
+    border-radius: 70px;
+    align-items: center;
+}
+audio.edge
+{
+    background: lime;
+    margin: 15px 15px 15px 15px;
+    padding: 15px 15px 15px 15px;
+    border: 5px black solid;
+    border-radius: 70px;
+    align-items: center;
+}
+video.edge
+{
+    background: lime;
+    margin: 15px 15px 15px 15px;
+    padding: 15px 15px 15px 15px;
+    border: 5px black solid;
+    border-radius: 70px;
+    align-items: center;
+}
+#menu
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+}
+#menu a
+{
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: rgb(1, 140, 1);
+  font-family: Arial;
+  width: 317px;
+  padding: 15px 30px;
+  margin-bottom: 0px;
+  display: block;
+  text-align: center;
+}
+#menu a:hover
+{
+  background-color: rgb(0, 65, 0);
+}
+#menu li
+{
+     float: left;
+     background-color:#003366;
+     min-width:100px;
+}
+#canvas
+{
+    background: #00b652;
+    border: 1px solid;
+    margin: 15px 15px 15px 15px;
+    padding: 15px;
+}
